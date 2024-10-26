@@ -99,7 +99,7 @@ https://github.com/user-attachments/assets/b532c6a8-bff7-4639-8b84-dd1d27449f9b
 - another way is to use A.I and train the machiene to recognise a proper curve and apply the convenient indication for the same.
 - 
 ## Team Contributions
-- Abdel Baasit: Integreting the components and the code.
+- Abdel Baasit: Integreting and developing the components and the code.
 - Sian Soj: provided insights on API's and its applications.
 - Karthik Murali: Researched about the software to be used as API.
 
