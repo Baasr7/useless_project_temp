@@ -1,22 +1,22 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Lil Invention Fo Da Tuk-Tuk Drivers
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team name:- Power Surge 
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Abdel Baasit - College of engineering perumon
+- Member 2: Sian Soj - College of engineering perumon
+- Member 3: Karthik Murali - College of engineering perumon
 
 ### Project Description
-[2-3 lines about what your project does]
+This skibidi device made for the world's more enthusiastic drivers, particularly tuk-tuk drivers and those notorious "chapri" drivers who believe that signaling is merely a suggestion. This gadget is similar to a backseat driver, but instead of urging you to slow down, it serves as a reminder that it is OK to indicate when it is your turn.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Preventing tuk tuk drivers from "driving on point"
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]
