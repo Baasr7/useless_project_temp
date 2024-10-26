@@ -77,23 +77,31 @@ Arduino IDE (C++)
 
 - we used API of OSRM(open street road maps) to fetch the duration of estimated travel time and indications (where and when to turn).
   ![reute api](https://github.com/user-attachments/assets/8ef23373-8bcc-4e44-8461-4d572ee7bb08)
-- the routeStep object provided the perfect vakues from the responce
+- the routeStep object provided the perfect vakues from the JSON file. the JSON file can be parsed(converted) in arduino ide using ArduinoJson library.
 
 ### Final Build
-*Explain the final build*
+- The final build looks like this.
+  ![finalres](https://github.com/user-attachments/assets/aee920e9-2c6e-4800-8471-1918aa59eabc)
+
+  
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+- a small peep at how the device works (excuse me if the vid quality is low ).
+https://github.com/user-attachments/assets/b532c6a8-bff7-4639-8b84-dd1d27449f9b
+
+
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
-
+# Additionals
+## Future Application
+- since this Current version doesn't support the use of real-time value to give accurate and presice indication. We could level up this by adding a GPS module so that live traffic feed can also be integreted to this project and completely automate the use of indicators.
+- another way is to use A.I and train the machiene to recognise a proper curve and apply the convenient indication for the same.
+- 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Abdel Baasit: Integreting the components and the code.
+- Sian Soj: provided insights on API's and its applications.
+- Karthik Murali: Researched about the software to be used as API.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
