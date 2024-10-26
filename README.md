@@ -19,47 +19,40 @@ This skibidi device made for the world's more enthusiastic drivers, particularly
 Preventing tuk tuk drivers from "driving on point"
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+By using a screen and 2 leds(as indicators), we can provide according output without manually using the indicator to turn.In a nutshell...indicator-LESS
+driving experience.
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+#### Main Components
+
+- esp8266 Wifi module
+- Led's 
+- 16 x2 Lcd Module
+
+#### Software Specifications
+
+-Programming Language: Arduino IDE (C++)
+-Libraries:
+     ESP8266WiFi.h: To enable Wi-Fi connectivity on the ESP8266
+     ESP8266HTTPClient.h: For making HTTP GET requests to fetch navigation data
+     ArduinoJson.h: For parsing JSON response data from the API
+     LiquidCrystal.h: To manage the 16x2 LCD display
+-API Endpoint:
+     Uses the OSRM API to fetch navigation instructions
+     Example endpoint: "http://router.project-osrm.org/route/v1/driving/{lon},{lat};{lon},{lat}"
+     JSON response contains route_step API, with information on direction (modifier), and duration of each step
+
+ #### tools required
+
+ -Jumper Wires: Male-to-male and male-to-female for connecting components.
+ -Resistors: 220Ω or 330Ω resistors to limit current for LEDs.
+ -Breadboard: for prototyping and making connections.
+ 
 
 ### Implementation
-For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
 
 # Schematic & Circuit
 ![Circuit](Add your circuit diagram here)
