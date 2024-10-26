@@ -1,4 +1,4 @@
-<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
+![circuit image 2](https://github.com/user-attachments/assets/fd6d9abf-606e-443a-8883-5e0a8a191040)
 
 # Lil Invention Fo Da Tuk-Tuk Drivers
 
@@ -25,50 +25,61 @@ driving experience.
 ## Technical Details
 ### Technologies/Components Used
 
-#### Main Components
+### Main Components
 
 - esp8266 Wifi module
 - Led's 
 - 16 x2 Lcd Module
 
-#### Software Specifications
+### Software Specifications
 
--Programming Language: Arduino IDE (C++)
--Libraries:
-     ESP8266WiFi.h: To enable Wi-Fi connectivity on the ESP8266
-     ESP8266HTTPClient.h: For making HTTP GET requests to fetch navigation data
-     ArduinoJson.h: For parsing JSON response data from the API
-     LiquidCrystal.h: To manage the 16x2 LCD display
--API Endpoint:
-     Uses the OSRM API to fetch navigation instructions
-     Example endpoint: "http://router.project-osrm.org/route/v1/driving/{lon},{lat};{lon},{lat}"
-     JSON response contains route_step API, with information on direction (modifier), and duration of each step
+#### Programming Language:
+Arduino IDE (C++)
+#### Libraries:
+ - ESP8266WiFi.h: To enable Wi-Fi connectivity on the ESP8266
+ - ESP8266HTTPClient.h: For making HTTP GET requests to fetch navigation data
+ - ArduinoJson.h: For parsing JSON response data from the API
+ - LiquidCrystal.h: To manage the 16x2 LCD display
+#### API Endpoint:
+   - Uses the OSRM API to fetch navigation instructions
+   - Example endpoint: "http://router.project-osrm.org/route/v1/driving/{lon},{lat};{lon},{lat}"
+   - JSON response contains route_step API, with information on direction (modifier), and duration of each step
 
  #### tools required
 
- -Jumper Wires: Male-to-male and male-to-female for connecting components.
- -Resistors: 220Ω or 330Ω resistors to limit current for LEDs.
- -Breadboard: for prototyping and making connections.
+ - Jumper Wires: Male-to-male and male-to-female for connecting components.
+ - Resistors: 220Ω or 330Ω resistors to limit current for LEDs.
+ - Breadboard: for prototyping and making connections.
  
 
 ### Implementation
 
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+ - basically, we had tried connectig our lcd module, but unfortunately at the last moment, it spotted giving values and random rows and columns were
+ getting enabled.since we didn't had other lcd module. we were only able to use led lights.
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+ - The circuit diagram for the improvised model is given below;
+ ![circuit_image](https://github.com/user-attachments/assets/81180dce-a6b6-460d-bc03-985733041f01)
+
+
+###connnections
+  -D1 (ESP8266) ➔ Left LED (Anode)
+  -D2 (ESP8266) ➔ Right LED (Anode)
+  -GND (ESP8266) ➔ Breadboard Ground Rail ➔ Left LED (Cathode) ➔ Right LED (Cathode)
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+## Components
+ ![WhatsApp Image 2024-10-26 at 19 20 40_77021ea6](https://github.com/user-attachments/assets/88d65e63-2dfe-43ee-ba55-93d80ae42055)
+ 
+ - we made sure that the nodemcu can connect to a network
+ ![networksucesfull](https://github.com/user-attachments/assets/57995716-56cc-454f-a444-562ace29b7fd)
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+- we used API of OSRM(open street road maps) to fetch the duration of estimated travel time and indications (where and when to turn).
+  ![reute api](https://github.com/user-attachments/assets/8ef23373-8bcc-4e44-8461-4d572ee7bb08)
+- the routeStep object provided the perfect vakues from the responce
 
-![Final](Add photo of final product here)
+### Final Build
 *Explain the final build*
 
 ### Project Demo
