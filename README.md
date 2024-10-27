@@ -77,7 +77,7 @@ Arduino IDE (C++)
 
 - we used API of OSRM(open street road maps) to fetch the duration of estimated travel time and indications (where and when to turn).
   ![reute api](https://github.com/user-attachments/assets/8ef23373-8bcc-4e44-8461-4d572ee7bb08)
-- the routeStep object provided the perfect vakues from the JSON file. the JSON file can be parsed(converted) in arduino ide using ArduinoJson library.
+- the routeStep object provided the perfect values from the JSON file. the JSON file can be parsed(converted) in arduino ide using ArduinoJson library.
 
 ### Final Build
 - The final build looks like this.
