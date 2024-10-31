@@ -90,9 +90,6 @@ Arduino IDE (C++)
 - a small peep at how the device works (excuse me if the vid quality is low ).
 https://github.com/user-attachments/assets/b532c6a8-bff7-4639-8b84-dd1d27449f9b
 
-
-*Explain what the video demonstrates*
-
 # Additionals
 ## Future Application
 - since this Current version doesn't support the use of real-time value to give accurate and presice indication. We could level up this by adding a GPS module so that live traffic feed can also be integreted to this project and completely automate the use of indicators.
