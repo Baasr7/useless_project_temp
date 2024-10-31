@@ -56,7 +56,7 @@ Arduino IDE (C++)
 
 
 # Schematic & Circuit
- - basically, we had tried connectig our lcd module, but unfortunately at the last moment, it spotted giving values and random rows and columns were
+ - basically, we had tried connectig our lcd module, but unfortunately at the last moment, it stopped giving values and random rows and columns were
  getting enabled.since we didn't had other lcd module. we were only able to use led lights.
 
  - The circuit diagram for the improvised model is given below;
